@@ -1,0 +1,2 @@
+# Preserve exact engine bytes so package-manifest hashes survive Windows/Linux checkout.
+* -text

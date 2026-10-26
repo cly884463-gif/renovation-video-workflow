@@ -1,0 +1,37 @@
+{
+  "workspace": "../work",
+  "ffmpeg": "ffmpeg",
+  "ffprobe": "ffprobe",
+  "material_roots": [
+    "@shared/footage"
+  ],
+  "copy_root": "@shared/copy",
+  "history": "history.json",
+  "tts": {
+    "url": "http://127.0.0.1:9881",
+    "reference_audio": "../private/reference.wav",
+    "reference_authorized": false,
+    "prompt_text": "",
+    "seed": 811,
+    "python": "",
+    "api": "local",
+    "timeout_seconds": 1200,
+    "repo_dir": "",
+    "model_dir": ""
+  },
+  "approvals": "../work/approvals.json",
+  "asr": {
+    "python": "",
+    "model_path": "",
+    "timestamp_adapter": "none"
+  },
+  "source_mappings": [],
+  "source_roots": {
+    "shared": [
+      "./materials"
+    ]
+  },
+  "team_directory": "",
+  "bgm_root": "",
+  "brand_config": "./brand.json"
+}

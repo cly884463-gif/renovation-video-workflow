@@ -1,0 +1,9 @@
+{
+  "schema_version": 3,
+  "scope": "User-owned approvals only; no permissions inherited",
+  "presenters": {},
+  "materials": {},
+  "excluded_people_sources": [],
+  "excluded_people_source_ids": [],
+  "excluded_material_sources": []
+}

@@ -1,0 +1,52 @@
+{
+  "version": 2,
+  "canvas": [
+    1080,
+    1920
+  ],
+  "fps": 30,
+  "logical_canvas": [
+    360,
+    640
+  ],
+  "font": "./private/font.ttf",
+  "font_family": "Your Font Family",
+  "logo": "./private/logo.png",
+  "subtitle": {
+    "size": 36,
+    "highlight_size": 39,
+    "highlight_color": "#FFD600",
+    "bottom": 151
+  },
+  "transition_frames": 6,
+  "asset_sha256": {},
+  "cover": {
+    "city": {
+      "xy": [
+        55,
+        245
+      ],
+      "size": 232,
+      "color": "#fff000"
+    },
+    "headline": {
+      "xy": [
+        61,
+        620
+      ],
+      "size": 96,
+      "color": "white",
+      "angle": 7,
+      "line_gap": 120
+    },
+    "theme": {
+      "xy": [
+        650,
+        915
+      ],
+      "size": 76,
+      "color": "#fff000"
+    }
+  },
+  "font_codepoints": "./private/font-codepoints.json"
+}

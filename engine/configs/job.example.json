@@ -1,0 +1,84 @@
+{
+  "id": "NEW01",
+  "city": "示例城市",
+  "copy": {
+    "source": "@shared/copy/approved.txt",
+    "paragraph": "",
+    "original": "",
+    "text": "",
+    "changes": [],
+    "sha256": "",
+    "review_note": ""
+  },
+  "voice": {
+    "path": "@workspace/voice_v1/narration.wav",
+    "sha256": "",
+    "text_sha256": "",
+    "speed": 1.21,
+    "speed_passes": 1,
+    "alignment_review": "",
+    "alignment_file": "@workspace/alignment_v1/alignment.json",
+    "asr_result_file": "@workspace/alignment_v1/asr_result.json",
+    "captions_file": "@workspace/alignment_v1/captions.json"
+  },
+  "captions": [],
+  "shots": [
+    {
+      "path": "@workspace/shots/00/normalized.mp4",
+      "sha256": "",
+      "source": "@shared/footage/shot_00.mp4",
+      "source_start": 0,
+      "source_duration": 3.25,
+      "scene_id": "scene_00",
+      "role": "city",
+      "frames": 90,
+      "transition": "cut",
+      "intent": "",
+      "review_note": "",
+      "material_basis": "",
+      "people_basis": "",
+      "names_presenter": false,
+      "asserts_material": false,
+      "provenance_file": "@workspace/shots/00/provenance.json"
+    },
+    {
+      "path": "@workspace/shots/01/normalized.mp4",
+      "sha256": "",
+      "source": "@shared/footage/shot_01.mp4",
+      "source_start": 0,
+      "source_duration": 3.25,
+      "scene_id": "scene_01",
+      "role": "body",
+      "frames": 90,
+      "transition": "cut",
+      "intent": "",
+      "review_note": "",
+      "material_basis": "",
+      "people_basis": "",
+      "names_presenter": false,
+      "asserts_material": false,
+      "provenance_file": "@workspace/shots/01/provenance.json"
+    }
+  ],
+  "cover": {
+    "shot": 0,
+    "time": 0.5,
+    "lines": [
+      "旧房局部翻新",
+      "厨卫焕新服务"
+    ],
+    "theme": "旧房翻新"
+  },
+  "music": {
+    "path": "@workspace/music/selected.wav",
+    "sha256": "",
+    "identity": "",
+    "mix_gain": 0.12,
+    "fit_note": ""
+  },
+  "selection_review": "",
+  "schema_version": 3,
+  "review_file": "@workspace/evidence_v1/review.json",
+  "presenter_selection_note": "",
+  "mode": "new"
+}
