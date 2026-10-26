@@ -15,7 +15,7 @@ def scan():
  patterns=[r'(?i)[A-Z]:[/\\](?:ASTRA|Users|develop)',r'192\.168\.\d+\.\d+',r'(?i)(?:ghp_|github_pat_|sk-proj-)[A-Za-z0-9_]{15,}',r'史上最完整共享|陈翰文|ASUS-PC']
  for p in public_files():
   count+=1;rel=p.relative_to(ROOT).as_posix()
-  if p.suffix not in allowed and p.name not in ('.gitignore','.gitattributes'):errors.append(rel+': unexpected file type');continue
+  if p.suffix not in allowed and p.name not in ('.gitignore','.gitattributes','LICENSE'):errors.append(rel+': unexpected file type');continue
   s=p.read_text(encoding='utf-8-sig')
   # The scanner contains its own detection patterns, not production data.
   if p.name=='release_check.py':continue
